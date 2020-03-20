@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<products
+<productlist
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="products.xsd">
     <category name="метизы">
@@ -8,17 +8,9 @@
                 <manufacturer>365days</manufacturer>
                 <model>Ab123</model>
                 <dateofmanufacture>31-01-2019</dateofmanufacture>
-                <color>GREEN</color>
+                <color>green</color>
                 <price>6.10</price>
-                <count availability="24"/>
-            </product>
-            <product>
-                <manufacturer>barracuda</manufacturer>
-                <model>cz153</model>
-                <dateofmanufacture>31-01-2019</dateofmanufacture>
-                <color>YELLOW</color>
-                <price>5.10</price>
-                <count availability="0"/>
+                <count>24</count>
             </product>
         </subcategory>
         <subcategory name="саморезы">
@@ -26,9 +18,9 @@
                 <manufacturer>mitsubishi motors</manufacturer>
                 <model>se333</model>
                 <dateofmanufacture>28-02-2019</dateofmanufacture>
-                <color>RED</color>
+                <color>red</color>
                 <price>99.99</price>
-                <count availability="9000"/>
+                <count>9000</count>
             </product>
         </subcategory>
     </category>
@@ -38,10 +30,10 @@
                 <manufacturer>bosch</manufacturer>
                 <model>xx999</model>
                 <dateofmanufacture>22-11-2019</dateofmanufacture>
-                <color>BLACK</color>
+                <color>black</color>
                 <price>999.10</price>
-                <count availability="1"/>
+                <count>1</count>
             </product>
         </subcategory>
     </category>
-</products>
+</productlist>
